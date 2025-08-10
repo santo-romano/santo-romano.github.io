@@ -134,6 +134,7 @@ img.album-cover {
     overflow-y: auto;
     text-align: left;
     position: relative;
+    font-weight: 300;
 }
 
 .close-lyrics {
