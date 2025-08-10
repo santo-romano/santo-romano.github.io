@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Santo Romano - Max Sunshine & Friends</title>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <div class="content">
+        
+            <h1>Santo Romano</h1>
+            <h2>Max Sunshine & Friends</h2>
+
+            <img src="assets/images/santo-romano-album.jpg" alt="Pochette de l'album Santo Romano" class="album-cover">
+
+            <!-- Liste des chansons -->
+            <div class="tracklist" id="tracklist"></div>
+
+            <!-- Bloc de remerciements -->
+            <div class="thanks">
+                <h2>Remerciements</h2>
+                <p>Tout d’abord, un merci particulier à Ronald. Sans lui, rien de tout cela n’aurait eu lieu. Merci à Charlène, JP, Christian et Marlène pour leur investissement dans le bonheur de plusieurs. Merci à la famille, aux amis, aux enfants, aux voleurs (les estis) qui ont pimenté l’aventure.</p>
+                <p>Un merci à la forêt, aux épinettes (particulièrement les rouges qu’on peut reconnaître car… elles sont rouges), au ruisseau, aux arbres debouts, aux arbres morts, au bois fendu ainsi qu’à celui à fendre, au 4 roues des adultes, au 4 roues des enfants, au beau temps, à la pluie, aux guimauves, aux biscuits célébrations, aux enfants qui font des smores, au jeu de toc, au jeu connect-4, à la roulotte, au pickup, au poêle à bois de 400 livres qu’on a levé comme des gars de bois pour le mettre dans la boite du pickup, aux bleuets, au bleuet (pu jamais), aux cannes à pêches, aux bâtons, aux monstres, aux fous rires, aux phrases incomplètes et incompréhensibles sur le bord du feu, aux fausses notes, aux White Claws à la mangue, au demi-burger qu’on a gardé pour demain, au tiers de beurrée qu’on a gardée inutilement pour plus tard, au plat de pâtes qui a été gardé et jeté trop tôt, à l’huile de palme, au mousseux, au vin rouge et à la bonne humeur généralisée.</p>
+                <p>Un merci particulier à Roch Voisine et à Claude Barzotti. Sans vous l’histoire ne serait pas complète.</p>
+            </div>
+
+            <!-- Player audio caché -->
+            <audio id="audioPlayer" controls style="display:none;"></audio>
+
+            <!-- Popup paroles -->
+            <div class="lyrics-popup" id="lyricsPopup">
+                <div class="lyrics-content">
+                    <span class="close-lyrics" id="closeLyrics">&times;</span>
+                    <div id="lyricsText"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="assets/js/script.js" defer></script>
+    </body>
+</html>
